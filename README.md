@@ -5,11 +5,11 @@ An attempt at recreating the classic board-and-tile game, trying to be as accura
 
 ![Image](https://github.com/user-attachments/assets/765b7af9-44ca-48d8-9fdc-4daeacd6a782)
 
-Features include the options to pass, exchange, and reset. Blank tiles and the two end conditions -- playing out and six consecutive scoreless turns -- exist.
+Features include the options to pass, exchange, see inventory/bag and reset. Blank tiles and the two end conditions -- playing out and six consecutive scoreless turns -- exist.
 
 ## How it's made
 
-Java Swing was used for the GUI, with a 2D array acting as the board. Valid answer choices are queried to a SQL database with the "dictionary" table being the official Scrabble dictionary. The "letters" table holds a relation between the letter, its index (0 - 27), its points, its amount, and its URL for the picture.
+Java Swing was used for the GUI, with a 2D array acting as the board. Valid answer choices are queried to a SQL database with the "dictionary" table being the official Scrabble dictionary. The "letters" table holds a relation between the letter, its index (0 - 26), its points, its amount, and its URL for the picture.
 
 ## Installation
 
